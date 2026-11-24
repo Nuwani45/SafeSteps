@@ -1,16 +1,29 @@
-# React + Vite
+# SafeSteps
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+SafeSteps is a student-built digital safety guidance web application for Track 02: Women's Safety & Digital Inclusion.
 
-Currently, two official plugins are available:
+## Features
+- Guided digital safety assistant with five common situations
+- Five short digital safety learning modules
+- Ten-question knowledge check with explanations
+- 15-point privacy self-checklist saved locally in the browser
+- Directory of official online safety and platform help resources
+- Responsive dark interface
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Run locally
+```bash
+npm install
+npm run dev
+```
 
-## React Compiler
+## Production build
+```bash
+npm run build
+npm run preview
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technology
+React, Vite, React Router, Lucide React, CSS, browser localStorage.
 
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Privacy and limitations
+SafeSteps does not require accounts, collect passwords, inspect private messages, or automatically scan devices/accounts. Checklist and lesson progress are stored in local browser storage. The assistant provides predefined educational guidance; it is not an AI threat detector, emergency service, or legal service. Resource links should be reviewed before public submission.
